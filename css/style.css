@@ -7,19 +7,20 @@ h1 {
   margin: 0;
   padding: 30px 0;
 }
+/* sets size and postion of sidepanel */
   .sidepanel  {
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 1;   /* Makes sidepanel visible over open button and pic with lesser or no z-index */
     height: 200px;  
     top: 0;
     right: 0;
     background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
+    overflow-x: hidden; /* hides content of sidepanel if it overflows the dimensions of the sidepannel */
+    transition: 0.5s;  /* how fast sidepanel opens */
     padding-top: 60px;
   }
-  
+  /* sets text color, size, color and padding, transitions to color of hover over 0.3 seconds */
   .sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -28,18 +29,18 @@ h1 {
     display: block;
     transition: 0.3s;
   }
-  
+  /* change color of text in sidebar when hovering over */
   .sidepanel a:hover {
     color: #f1f1f1;
   }
-  
+  /* set location on page of sidepanel and close button */
   .sidepanel .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
   }
-  
+  /* setting size, color and location of open button, changes cursor pointing hand when over button */
   .openbtn {              
     font-size: 20px;
     cursor: pointer;
@@ -52,11 +53,11 @@ h1 {
     position:fixed;
 
   }
-  
+/* Change background color of sidepanel button on hover */  
   .openbtn:hover {
     background-color:#444;
   }
-
+/* Setting dimensions of picture, changes size with screen size, add shadwo-box */
   img {
     height: 500px;
     width: auto;
@@ -66,8 +67,8 @@ h1 {
     margin-right: auto;
     width: 50%;
   }
-
-  .randomButton {
+/* Move random button to center of the page, moves with picture. */
+  .randomButton {       
     display: block;
     margin-left: auto;
     margin-right: auto;
