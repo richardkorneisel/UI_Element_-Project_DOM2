@@ -4,7 +4,8 @@ UI_Element_-Project_DOM2 is a DOM project to showcase an UI (User Interface) and
 
 ## Installation
 
-You can open this website from GitHub pages at "".
+You can open this website from your browser at  https://richardkorneisel.github.io/UI_Element_Project_DOM/ 
+
 
 ## Visuals
 
